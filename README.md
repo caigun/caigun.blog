@@ -10,7 +10,7 @@ print('Hello world!')
 
 ```markdown
 #include <stdio.h>
-int main
+int main()
 {
     printf("Hello world!");
     return 0;
