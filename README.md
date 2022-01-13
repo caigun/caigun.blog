@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+# Welcome to My Blog!
 
 [Go to the first page](/first_page.md)
 
