@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[Go to the first page](/fitst_page)
+[Go to the first page](/fitst_page.md)
 
 You can use the [editor on GitHub](https://github.com/caigun/caigun.blog/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
