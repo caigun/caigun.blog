@@ -24,6 +24,18 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+
+
+def hanoi(from_rod, to_rod, help_rod, n):
+    if n==1:
+        print("move from",from_rod,"to",to_rod)
+    else:
+        hanoi(from_rod, help_rod, to_rod, n-1)
+        print("move from",from_rod,"to",to_rod)
+        hanoi(help_rod, to_rod, from_rod, n-1)
+
+hanoi('left','right','middle',5)
+
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
