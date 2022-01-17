@@ -1,5 +1,6 @@
 # Caigun's Notes
 ## History pages
+[Home](/README.html)
 
 3. [Python - Finding the sum of two numbers](/content/t03.html) - 2022.1.17
 
