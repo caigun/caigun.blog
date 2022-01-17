@@ -36,10 +36,10 @@ class Solution:
         result = str(int(a) + int(b))
         return self.transform(result)
 ```
-I think this code is not efficient, because it did not used the feather of the node. However, this is method is really easy to deploy. The only challenge is the process that transform the number back to node form, whose difficulty mainly came from recursion. So this kind of silly method might be the last method I would use.
+I think this code is not efficient, because it did not used the feature of the node. However, this is method is really easy to deploy. The only challenge is the process that transform the number back to node form, whose difficulty mainly came from recursion. So this kind of silly method might be the last method I would use.
 
 ### Advanced solution
-Calculating sum by digit is how we add two numbers together. Now that two numbers are provided in the form of digit, why not use this feather to solve the problem? It must be much easier to write and the program will be more efficient.
+Calculating sum by digit is how we add two numbers together. Now that two numbers are provided in the form of digit, why not use this feature to solve the problem? It must be much easier to write and the program will be more efficient.
 
 ### Debug process
 During the debug process, I noticed a point that I need to remenber: when defining a new function in a class containing self, you need to add 'self.' to your function name while using it, otherwise an error will occur:
