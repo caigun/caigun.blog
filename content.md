@@ -1,6 +1,6 @@
 # Caigun's Notes
 ## History pages
-[Home](/README.html)
+[Home](/index.html)
 
 4. [Python - Sum of two numbers in the form of node](/content/t04.html) - 2022.1.17
 
