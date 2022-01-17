@@ -1,7 +1,63 @@
 # Caigun's Notes
-## Finding the sum of two numbers
+## Sum of two numbers in the form of node
 [Caigun](/my_page.html) 
 Last updated on 2022-1-17 [View history pages](/content.html)
+Python
+
+### Task
+Given two nonempty nodes, representing two nonminus integers. They are stored in reverse order for each digit, and every node can only store one digit.
+Please add the two numbers and return the result in the form of node, just like what has been given. You can assume that except the number 0, no other numbers will start with 0.
+
+### Analysis
+First method I thought was just transform these two nodes into numbers and calculate the sum of them, them transform the result back into node to satisfy the requirements. But how can I transform a number back into node? I used recursion to create the node one by one.
+
+### Solution
+```Markdown
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def transform(self, num: str, result = None):
+        if num == '':
+            return result
+        else:
+            newresult = ListNode(int(num[0]), result)
+            return self.transform(num[1:], newresult)
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        a, b = str(l1.val), str(l2.val)
+        while l1.next != None:
+            a = str(l1.next.val) + a
+            l1 = l1.next
+        while l2.next != None:
+            b = str(l2.next.val) + b
+            l2 = l2.next
+        result = str(int(a) + int(b))
+        return self.transform(result)
+```
+I think this code is not efficient, because it did not used the feather of the node. However, this is method is really easy to deploy. The only challenge is the process that transform the number back to node form, whose difficulty mainly came from recursion. So this kind of silly method might be the last method I would use.
+
+### Advanced solution
+Calculating sum by digit is how we add two numbers together. Now that two numbers are provided in the form of digit, why not use this feather to solve the problem? It must be much easier to write and the program will be more efficient.
+
+### Debug process
+During the debug process, I noticed a point that I need to remenber: when defining a new function in a class containing self, you need to add 'self.' to your function name while using it, otherwise an error will occur:
+```Markdown
+NameError: name 'transform' is not defined
+    return transform(result, ListNode() , init = True)
+Line 24 in addTwoNumbers (Solution.py)
+    ret = Solution().addTwoNumbers(param_1, param_2)
+Line 50 in _driver (Solution.py)
+    _driver()
+Line 61 in <module> (Solution.py)
+```
+
+-------------------------------------------
+
+## Finding the sum of two numbers
+[Caigun](/my_page.html) 
+Posted on 2022-1-17 [View history pages](/content.html)
 Python
 
 ### Task

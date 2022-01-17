@@ -2,6 +2,8 @@
 ## History pages
 [Home](/README.html)
 
+4. [Python - Sum of two numbers in the form of node](/content/t04.html) - 2022.1.17
+
 3. [Python - Finding the sum of two numbers](/content/t03.html) - 2022.1.17
 
 2. [C language - 头文件注释](/content/t02.html) - 2022.1.14
