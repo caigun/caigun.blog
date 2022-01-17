@@ -6,7 +6,7 @@ Python
 
 ### Task
 Given a list containing integers and a integer target value.
-You are required to find two integers in this list which sum equals to the target value, and return their index. Suppose that every input will only lead to one answer, but no repeated occurance of one element in the list.
+You are required to find two integers in this list which sum equals to the target value, and return their index. Suppose that every input will only lead to one answer, but no repeated occurance of same element index in the list are allowed.
 (Problem from Leetcode)
 
 ### Analysis
@@ -77,6 +77,7 @@ class Solution:
                 r = True
         return result
 ```
+I think the average time complexity of this code is O(nlogn) from the sort() function.
 
 -------------------------------------------
 
