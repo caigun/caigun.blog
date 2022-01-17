@@ -1,7 +1,7 @@
 # Caigun's Notes
 ## Finding the sum of two numbers
-[Caigun](https://caigun.github.io/my_page.md) 
-Last updated on 2022-1-17 [View history pages](https://caigun.github.io/content.md)
+[Caigun](/my_page.html) 
+Last updated on 2022-1-17 [View history pages](/content.html)
 Python
 
 ### Task
@@ -81,8 +81,8 @@ class Solution:
 -------------------------------------------
 
 ## 头文件注释
-[Caigun](https://caigun.github.io/my_page.md) 
-Posted on 2022-1-14 [View history pages](https://caigun.github.io/content.md)
+[Caigun](/my_page.html) 
+Posted on 2022-1-14 [View history pages](/content.html)
 C language
 
 C语言与python不同，大多数使用的命令都需要预先声明（#include)头文件（.h）才能够使用。
@@ -100,8 +100,8 @@ C语言与python不同，大多数使用的命令都需要预先声明（#includ
 -------------------------------------------
 
 ## Welcome to Caigun's Blog!
-[Caigun](https://caigun.github.io/my_page.md) 
-Posted on 2022-1-13 [View history updates](https://caigun.github.io/content.md)
+[Caigun](/my_page.md) 
+Posted on 2022-1-13 [View history updates](/content.md)
 Introduction
 
 This is the first blog I write. I am intended to write this blog to record my learning process of coding. I learnt python at the very beginning, and recently I have started learning C. I am only taking formal Python lessons from the University while watching video clips of teaching C languages. So I may write down my working process dealing with the python project problem ,and for C language contents may only contain notes or some simple practices.
@@ -121,4 +121,4 @@ int main()
 
 -------------------------------------------
 
-[View all history updates](https://caigun.github.io/content.md)
+[View all history updates](/content.md)
