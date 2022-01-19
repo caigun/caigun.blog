@@ -2,6 +2,8 @@
 ## History pages
 [Home](/index.html)
 
+5. [Python - (Extension) Sum of two numbers in the form of node](/content/t05.html) - 2022.1.19
+
 4. [Python - Sum of two numbers in the form of node](/content/t04.html) - 2022.1.17
 
 3. [Python - Finding the sum of two numbers](/content/t03.html) - 2022.1.17
