@@ -5,8 +5,11 @@ Last updated on 2022-1-19 [View history pages](/content.html)
 Python
 
 [View previous](/content/t04.html)
+
 This is the solution using node.
+
 It is faster than my last program, but there is no big difference. The difficulty for me is creating answers in the form of nodes, regardless how I solve the sum problem. Now I can only use recursion to create such Nodes from a list of numbers, so maybe I should learn some other methods to solve such problems, such as loop.
+
 Below are my solution:
 ```Markdown
 # Definition for singly-linked list.
@@ -67,6 +70,7 @@ Python
 
 ### Task
 Given two nonempty nodes, representing two nonminus integers. They are stored in reverse order for each digit, and every node can only store one digit.
+
 Please add the two numbers and return the result in the form of node, just like what has been given. You can assume that except the number 0, no other numbers will start with 0.
 (Problem from Leetcode)
 
@@ -124,7 +128,9 @@ Python
 
 ### Task
 Given a list containing integers and a integer target value.
+
 You are required to find two integers in this list which sum equals to the target value, and return their index. Suppose that every input will only lead to one answer, but no repeated occurance of same element index in the list are allowed.
+
 (Problem from Leetcode)
 
 ### Analysis
