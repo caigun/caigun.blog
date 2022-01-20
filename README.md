@@ -11,7 +11,7 @@ This is the solution using node.
 It is faster than my last program, but there is no big difference. The difficulty for me is creating answers in the form of nodes, regardless how I solve the sum problem. Now I can only use recursion to create such Nodes from a list of numbers, so maybe I should learn some other methods to solve such problems, such as loop.
 
 Below are my solution:
-```Python
+```py
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -78,7 +78,7 @@ Please add the two numbers and return the result in the form of node, just like 
 First method I thought was just transform these two nodes into numbers and calculate the sum of them, them transform the result back into node to satisfy the requirements. But how can I transform a number back into node? I used recursion to create the node one by one.
 
 ### Solution
-```Python
+```py
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -135,7 +135,7 @@ You are required to find two integers in this list which sum equals to the targe
 
 ### Analysis
 This is easy to write regardless of the time complexity. We can go through every element in the list and combine them and test whether the sums equal to the target value.
-```Python
+```py
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):
@@ -155,7 +155,7 @@ When looking at the method I used above, it seems to be very similar to the sort
 Than I find that if the list is sorted, then it can be easily done by compare the sum with the target value from two side of the list.
 
 If the list is sorted, we can use this method to find the solution:
-```Python
+```py
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         lpivot = 0
@@ -173,7 +173,7 @@ class Solution:
 But if we use the function list.sort(), the index of the element will change, and thus make the result not accurate. One solution for this problem is that we get the result and then go back the original list and just search for the element and return the index. But when the list contains identical value elements, the program will return the same index, which is not allowed. So I use for loop to go through the element, so that we can find another target element.
 
 ### Advanced Task Solution
-```Python
+```py
 class Solution:
     def twoSumElement(self, nums: list[int], target: int):
         nums1 = nums[:]
@@ -231,7 +231,7 @@ Introduction
 
 This is the first blog I write. I am intended to write this blog to record my learning process of coding. I learnt python at the very beginning, and recently I have started learning C. I am only taking formal Python lessons from the University while watching video clips of teaching C languages. So I may write down my working process dealing with the python project problem ,and for C language contents may only contain notes or some simple practices.
 
-```Python
+```py
 print('Hello world!')
 ```
 
