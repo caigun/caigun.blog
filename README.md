@@ -1,7 +1,72 @@
 # Caigun's Notes
+## VSC library is not the direct library
+[Caigun](/my_page.html) 
+Last updated on 2022-2-21 [View history pages](/content.html)
+Python
+
+When running python program and debug on the VSC platform, I found that all the new file that the program create will exist in the root directory, 
+but not the program's direct library.
+
+
+To solve this problem, I added `"cwd": "${fileDirname}"` to the config file `.vscode/launch.json` and set the library to be direct to the program.
+
+-------------------------------------------
+
+## Notice of the method "try"
+[Caigun](/my_page.html) 
+Posted on 2022-2-21 [View history pages](/content.html)
+Python
+
+[View previous](/content/t05.html)
+```python
+import json
+
+def get_stroed_username():
+    filename = 'username.json'
+    try:
+        with open(filename) as f_obj:
+            username = json.load(f_obj)
+    except FileExistsError:
+        return None
+    else:
+        return username
+
+def greet_user():
+    """问候用户并指出其名字"""
+    user_name = get_stroed_username()
+    if username:
+        print('Welcome back, ' + username + '!')
+    else:
+        username = input('What is your name?')
+        filename = 'username.json'
+        with open(filename, 'w') as f_obj:
+            json.dump(username, f_obj)
+            print("We'll remember you when you come back, " + username + '!')
+
+greet_user()
+```
+When learning the read and write function, I came across this problem:
+This program keeps reporting error though I have added the "try" method:
+
+```python
+Traceback (most recent call last):
+  File "...1.py", line 26, in <module>
+    greet_user()
+  File "...1.py", line 16, in greet_user
+    user_name = get_stroed_username()
+  File "...1.py", line 7, in get_stroed_username
+    with open(filename) as f_obj:
+FileNotFoundError: [Errno 2] No such file or directory: 'username.json'
+```
+
+Solution:
+Take care of the error type, and don't trust fully on the advise (in which I accidentally typed FileNotFoundError as FileExistError)
+
+-------------------------------------------
+
 ## (Extension) Sum of two numbers in the form of node
 [Caigun](/my_page.html) 
-Last updated on 2022-1-19 [View history pages](/content.html)
+Posted on 2022-1-19 [View history pages](/content.html)
 Python
 
 [View previous](/content/t04.html)
