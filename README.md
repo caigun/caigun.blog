@@ -17,7 +17,6 @@ To solve this problem, I added `"cwd": "${fileDirname}"` to the config file `.vs
 Posted on 2022-2-21 [View history pages](/content.html)
 Python
 
-[View previous](/content/t05.html)
 ```python
 import json
 
@@ -60,7 +59,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'username.json'
 ```
 
 Solution:
-Take care of the error type, and don't trust fully on the advise (in which I accidentally typed FileNotFoundError as FileExistError)
+Take care of the error type, and don't trust fully on the advise (in which I accidentally typed `FileNotFoundError` as `FileExistError`)
 
 -------------------------------------------
 
