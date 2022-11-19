@@ -1626,43 +1626,43 @@
     /**
      * 初始化目的地
      */
-    function initDesData() {
-        $.ajax({
-            data : {
-                'mainId' : '6750fd6941a044ee882965a54b22374c'
-            },
-            async : true,
-            url : "/a/schl/des/schlInoutStuDes/getListByMainId",
-            dataType : "json",
-            type: 'post',
-            beforeSend:function(){
-                KTApp.blockPage({
-                    overlayColor: '#000000',
-                    state: 'info',
-                    type: 'v2',
-                    message: '请稍候...'
-                });
-            },
-            success : function(result) {
-                KTApp.unblockPage();
-                if(result.success){
-                    var desList = result.desList;
-                    if(desList.length>0){
-                        $("#stuAddress0").html("");
-                        for(var i=0;i<desList.length;i++){
-                            parseHtml(desList[i]);
-                        }
-                    }
-                }else{
-                    alert("初始化目的地失败");
-                }
-            },
-            error : function(jqXHR, textStatus, errorThrown) {
-                KTApp.unblockPage();
-                alert("初始化目的地失败");
-            }
-        });
-    }
+    // function initDesData() {
+    //     $.ajax({
+    //         data : {
+    //             'mainId' : '6750fd6941a044ee882965a54b22374c'
+    //         },
+    //         async : true,
+    //         url : "/a/schl/des/schlInoutStuDes/getListByMainId",
+    //         dataType : "json",
+    //         type: 'post',
+    //         beforeSend:function(){
+    //             KTApp.blockPage({
+    //                 overlayColor: '#000000',
+    //                 state: 'info',
+    //                 type: 'v2',
+    //                 message: '请稍候...'
+    //             });
+    //         },
+    //         success : function(result) {
+    //             KTApp.unblockPage();
+    //             if(result.success){
+    //                 var desList = result.desList;
+    //                 if(desList.length>0){
+    //                     $("#stuAddress0").html("");
+    //                     for(var i=0;i<desList.length;i++){
+    //                         parseHtml(desList[i]);
+    //                     }
+    //                 }
+    //             }else{
+    //                 alert("初始化目的地失败");
+    //             }
+    //         },
+    //         error : function(jqXHR, textStatus, errorThrown) {
+    //             KTApp.unblockPage();
+    //             alert("初始化目的地失败");
+    //         }
+    //     });
+    // }
 
     /**
      * 渲染目的地
