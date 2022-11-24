@@ -1,6 +1,7 @@
 # Caigun's Notes
 ## Cheat Page
-[Click Here](/new/%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%A6%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89.html)
+[pyz](/new/%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%A6%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89.html)
+[wcj](/cheat/%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%A6%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89.html)
 ## VSC library is not the direct library
 [Caigun](/my_page.html) 
 Last updated on 2022-2-21 [View history pages](/content.html)
