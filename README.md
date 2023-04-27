@@ -1,7 +1,4 @@
 # Caigun's Notes
-## Cheat Page
-[pyz](/new/%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%A6%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89.html)
-[wcj](/cheat/%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%A6%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89.html)
 ## VSC library is not the direct library
 [Caigun](/my_page.html) 
 Last updated on 2022-2-21 [View history pages](/content.html)
@@ -272,24 +269,6 @@ I think the average time complexity of this code is O(nlogn) from the sort() fun
 
 -------------------------------------------
 
-## 头文件注释
-[Caigun](/my_page.html) 
-Posted on 2022-1-14 [View history pages](/content.html)
-C language
-
-C语言与python不同，大多数使用的命令都需要预先声明（#include)头文件（.h）才能够使用。
-目前使用到的头文件：
-```cs
-#include <stdio.h> 
-//用于输入和输出
-//用到的函数:
-//printf() 用于输出
-//scanf() 用于输入
-#include <string.h> 
-//用于处理字符
-```
-
--------------------------------------------
 
 ## Welcome to Caigun's Blog!
 [Caigun](/my_page.html) 
