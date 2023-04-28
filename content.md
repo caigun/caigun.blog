@@ -1,5 +1,5 @@
 # Caigun's Notes
-## History pages
+## History updates
 [Home](/index.html)
 
 7. [Python - VSC library is not the direct library](/content/t07.html) - 2022.2.21
