@@ -1,4 +1,5 @@
 # Rent Details
+Updated 6-2 16:35
 ## Student housing
 ### [PSR Student housing](https://psrhousing.com/#starthere)
 近学校
