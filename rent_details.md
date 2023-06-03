@@ -1,5 +1,7 @@
 # Rent Details
-Updated 6-3 21:17
+Updated 6-3 23:43
+
+~~Updated 6-3 21:17~~
 
 ~~Updated 6-3 11:41~~
 
@@ -7,12 +9,26 @@ Updated 6-3 21:17
 
 ~~Updated 6-2 16:35~~
 ## Student housing
-### [PSR Student housing](https://psrhousing.com/#starthere)
+### [PSR Student housing](https://hudsonmcdonald.com/psr-student-housing/)
 近学校
 
 设施好 环境好
 
 独立卧室可用
+
+参考费用：
+
+One Bedrooms starting at $2,400/month
+
+Private bedrooms in fully furnished shared suites starting at $1,200/month
+
+Shared bedroom in fully furnished shared suites starting at $650/month
+
+All leases 12 months
+
+All utilities included (water; electric; gas; trash)
+
+### [The Metropolitan](https://hudsonmcdonald.com/the-metropolitan/)
 
 费用:
 
@@ -20,7 +36,7 @@ Updated 6-3 21:17
 
 需要先填写申请表。[地址](https://1367130.onlineleasing.realpage.com/#k=56387)
 
-参考：[回复](/emails/PSR.pdf)
+参考：[回复](/emails/The Metropolitan.pdf)
 
 ### [The Berk](https://www.theberkoncollege.com/berkeley/the-berk/student/)
 近学校
