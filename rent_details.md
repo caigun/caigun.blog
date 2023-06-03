@@ -1,5 +1,7 @@
 # Rent Details
-Updated 6-3 11:41
+Updated 6-3 21:13
+
+~~Updated 6-3 11:41~~
 
 ~~Updated 6-3 11:17~~
 
@@ -14,7 +16,8 @@ Updated 6-3 11:41
 
 费用:
 
-询问中
+需要先填写申请表。
+参考：[回复](/emails/PSR.pdf)
 
 ### [The Berk](https://www.theberkoncollege.com/berkeley/the-berk/student/)
 近学校
