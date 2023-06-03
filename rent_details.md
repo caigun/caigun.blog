@@ -1,5 +1,8 @@
 # Rent Details
-Updated 6-3 11:17
+Updated 6-3 11:41
+
+~~Updated 6-3 11:17~~
+
 ~~Updated 6-2 16:35~~
 ## Student housing
 ### [PSR Student housing](https://psrhousing.com/#starthere)
@@ -63,7 +66,7 @@ $3486
 
 $3431
 
-### !NEW [Berkeley Hills Mid-century Home near Tilden Park](https://zh.airbnb.com/rooms/940042?adults=4&location=%E4%BC%AF%E5%85%8B%E5%88%A9&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=9e022bcd-64cd-476f-9bc5-0e83578de4b4&source_impression_id=p3_1685760655_i7tcBo6DZ0IxiZeo&translate_ugc=false)
+### [Berkeley Hills Mid-century Home near Tilden Park](https://zh.airbnb.com/rooms/940042?adults=4&location=%E4%BC%AF%E5%85%8B%E5%88%A9&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=9e022bcd-64cd-476f-9bc5-0e83578de4b4&source_impression_id=p3_1685760655_i7tcBo6DZ0IxiZeo&translate_ugc=false)
 
 位置较偏，谷歌地图到学校步行/公交需50min左右，驾车12min左右（需要考虑交通问题）
 
@@ -75,7 +78,7 @@ $3431
 
 $5892
 
-### !NEW [A Convenient Lodging Very Close to Bart Station](https://zh.airbnb.com/rooms/44684858?adults=4&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=f6595064-a38f-407c-9e98-a8f9ef0de546&source_impression_id=p3_1685761536_LutHz%2Fp8aPfxo55Z&translate_ugc=false)
+### [A Convenient Lodging Very Close to Bart Station](https://zh.airbnb.com/rooms/44684858?adults=4&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=f6595064-a38f-407c-9e98-a8f9ef0de546&source_impression_id=p3_1685761536_LutHz%2Fp8aPfxo55Z&translate_ugc=false)
 
 谷歌街景：
 
@@ -90,3 +93,23 @@ $5892
 费用：
 
 $5079
+
+### !NEW [Bright & airy gem with unique history and charm](https://zh.airbnb.com/rooms/711735226241155856?adults=4&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=f6595064-a38f-407c-9e98-a8f9ef0de546&source_impression_id=p3_1685762270_XWyNI%2Bz2s0eUnBNI&translate_ugc=false)
+
+豪华大宅
+
+费用：
+
+$9180
+
+### !NEW [Charming 3/BR flat on quaint street- walk to Bart!](https://zh.airbnb.com/rooms/563964928873504596?adults=4&location=%E4%BC%AF%E5%85%8B%E5%88%A9&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=873c4098-f54c-45d2-9460-a47a60977a79&source_impression_id=p3_1685763254_lVJ6ceW940QMSYKS&translate_ugc=false)
+
+学校西面，步行至学校约30min，骑车/驾车11min，走路+公交<20min
+
+环境不错
+
+4床
+
+费用：
+
+$7796(无长租打折，可能需要沟通)
