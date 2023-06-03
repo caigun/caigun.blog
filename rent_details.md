@@ -1,5 +1,6 @@
 # Rent Details
-Updated 6-2 16:35
+Updated 6-3 11:17
+~~Updated 6-2 16:35~~
 ## Student housing
 ### [PSR Student housing](https://psrhousing.com/#starthere)
 近学校
@@ -61,3 +62,31 @@ $3486
 费用：
 
 $3431
+
+### !NEW [Berkeley Hills Mid-century Home near Tilden Park](https://zh.airbnb.com/rooms/940042?adults=4&location=%E4%BC%AF%E5%85%8B%E5%88%A9&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=9e022bcd-64cd-476f-9bc5-0e83578de4b4&source_impression_id=p3_1685760655_i7tcBo6DZ0IxiZeo&translate_ugc=false)
+
+位置较偏，谷歌地图到学校步行/公交需50min左右，驾车12min左右（需要考虑交通问题）
+
+4床，含一张上下铺
+
+环境设施都非常好
+
+费用：
+
+$5892
+
+### !NEW [A Convenient Lodging Very Close to Bart Station](https://zh.airbnb.com/rooms/44684858?adults=4&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=f6595064-a38f-407c-9e98-a8f9ef0de546&source_impression_id=p3_1685761536_LutHz%2Fp8aPfxo55Z&translate_ugc=false)
+
+谷歌街景：
+
+1821 Sacramento St
+
+在西边，整套别墅，但不是很大
+
+中文房东
+
+4张单人床
+
+费用：
+
+$5079
