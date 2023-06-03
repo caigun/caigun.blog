@@ -27,6 +27,20 @@ $1640 (2b1b)
 
 $1370 (3b1b, private bath)
 
+### [Casa Cedar](https://www.casacedar.com)
+北面，走路六分钟到学校
+
+设施非常齐全
+
+租一个学期每个月每人贵$300
+
+费用：
+
+For a Double room with a 1-semester lease: $2199 per person per month 
+For a Large Triple room with a 1-semester lease: $1799 per person per month
+For the XL Quad room with a 1-semester lease: $1699 per person per month
+For the XL Triple room with a 1-semester lease: $1899 per person per month
+
 
 ## Other housing
 ### [3 br, 2.5 bath House - 1519 Henry Street](https://www.apartments.com/3-br-25-bath-house-1519-henry-street-berkeley-ca/2esb10b/)
