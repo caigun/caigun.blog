@@ -1,5 +1,5 @@
 # Rent Details
-Updated 6-3 21:13
+Updated 6-3 21:17
 
 ~~Updated 6-3 11:41~~
 
@@ -16,7 +16,10 @@ Updated 6-3 21:13
 
 费用:
 
-需要先填写申请表。
+参考费率：$1675-$1825
+
+需要先填写申请表。[地址](https://1367130.onlineleasing.realpage.com/#k=56387)
+
 参考：[回复](/emails/PSR.pdf)
 
 ### [The Berk](https://www.theberkoncollege.com/berkeley/the-berk/student/)
@@ -97,7 +100,7 @@ $5892
 
 $5079
 
-### !NEW [Bright & airy gem with unique history and charm](https://zh.airbnb.com/rooms/711735226241155856?adults=4&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=f6595064-a38f-407c-9e98-a8f9ef0de546&source_impression_id=p3_1685762270_XWyNI%2Bz2s0eUnBNI&translate_ugc=false)
+### [Bright & airy gem with unique history and charm](https://zh.airbnb.com/rooms/711735226241155856?adults=4&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=f6595064-a38f-407c-9e98-a8f9ef0de546&source_impression_id=p3_1685762270_XWyNI%2Bz2s0eUnBNI&translate_ugc=false)
 
 豪华大宅
 
@@ -105,7 +108,7 @@ $5079
 
 $9180
 
-### !NEW [Charming 3/BR flat on quaint street- walk to Bart!](https://zh.airbnb.com/rooms/563964928873504596?adults=4&location=%E4%BC%AF%E5%85%8B%E5%88%A9&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=873c4098-f54c-45d2-9460-a47a60977a79&source_impression_id=p3_1685763254_lVJ6ceW940QMSYKS&translate_ugc=false)
+### [Charming 3/BR flat on quaint street- walk to Bart!](https://zh.airbnb.com/rooms/563964928873504596?adults=4&location=%E4%BC%AF%E5%85%8B%E5%88%A9&check_in=2023-08-16&check_out=2023-12-20&federated_search_id=873c4098-f54c-45d2-9460-a47a60977a79&source_impression_id=p3_1685763254_lVJ6ceW940QMSYKS&translate_ugc=false)
 
 学校西面，步行至学校约30min，骑车/驾车11min，走路+公交<20min
 
