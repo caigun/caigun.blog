@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation Results</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Evaluation Results</h1>
+
+    <h2>LibriTTS-Test-short <em>740 subset</em> (3-8s)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>WER Mean (%)</th>
+                <th>WER Std Dev (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>GT</td>
+                <td>2.9330</td>
+                <td>5.7240</td>
+            </tr>
+            <tr>
+                <td>Generated</td>
+                <td>5.0120</td>
+                <td>10.8880</td>
+            </tr>
+            <tr>
+                <td>Source</td>
+                <td>5.6140</td>
+                <td>10.6480</td>
+            </tr>
+            <tr>
+                <td>Wesper</td>
+                <td>7.7174</td>
+                <td>12.2524</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Generated Samples:</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>GT</th>
+                <th>Generated</th>
+                <th>Source</th>
+                <th>Wesper</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>28</td>
+                <td><audio controls><source src="/whisper2speech/sample/gt/28.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/recon/28.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/source/28.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/wesper/28.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>61</td>
+                <td><audio controls><source src="/whisper2speech/sample/gt/61.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/recon/61.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/source/61.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/wesper/61.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>117</td>
+                <td><audio controls><source src="/whisper2speech/sample/gt/117.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/recon/117.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/source/117.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/wesper/117.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>148</td>
+                <td><audio controls><source src="/whisper2speech/sample/gt/148.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/recon/148.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/source/148.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/wesper/148.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>270</td>
+                <td><audio controls><source src="/whisper2speech/sample/gt/270.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/recon/270.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/source/270.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/wesper/270.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>394</td>
+                <td><audio controls><source src="/whisper2speech/sample/gt/394.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/recon/394.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/source/394.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/wesper/394.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>489</td>
+                <td><audio controls><source src="/whisper2speech/sample/gt/489.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/recon/489.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/source/489.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/wesper/489.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>561</td>
+                <td><audio controls><source src="/whisper2speech/sample/gt/561.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/recon/561.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/source/561.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/wesper/561.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>617</td>
+                <td><audio controls><source src="/whisper2speech/sample/gt/617.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/recon/617.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/source/617.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/sample/wesper/617.wav" type="audio/wav"></audio></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>LibriTTS-Test-long <em>690 subset</em> (>8s)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>WER Mean (%)</th>
+                <th>WER Std Dev (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>GT</td>
+                <td>2.7150</td>
+                <td>4.0250</td>
+            </tr>
+            <tr>
+                <td>Generated</td>
+                <td>5.5500</td>
+                <td>14.8500</td>
+            </tr>
+            <tr>
+                <td>Source</td>
+                <td>5.1930</td>
+                <td>11.5320</td>
+            </tr>
+            <tr>
+                <td>Wesper</td>
+                <td>12.6560</td>
+                <td>14.9150</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>GT</th>
+                <th>Generated</th>
+                <th>Source</th>
+                <th>Wesper</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>22</td>
+                <td><audio controls><source src="/whisper2speech/long/gt/22.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/recon/22.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/source/22.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/wesper/22.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>299</td>
+                <td><audio controls><source src="/whisper2speech/long/gt/299.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/recon/299.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/source/299.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/wesper/299.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>366</td>
+                <td><audio controls><source src="/whisper2speech/long/gt/366.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/recon/366.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/source/366.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/wesper/366.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>389</td>
+                <td><audio controls><source src="/whisper2speech/long/gt/389.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/recon/389.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/source/389.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/wesper/389.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>449</td>
+                <td><audio controls><source src="/whisper2speech/long/gt/449.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/recon/449.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/source/449.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/wesper/449.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>524</td>
+                <td><audio controls><source src="/whisper2speech/long/gt/524.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/recon/524.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/source/524.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/wesper/524.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>572</td>
+                <td><audio controls><source src="/whisper2speech/long/gt/572.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/recon/572.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/source/572.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/long/wesper/572.wav" type="audio/wav"></audio></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
