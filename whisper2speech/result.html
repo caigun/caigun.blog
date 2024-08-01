@@ -27,6 +27,140 @@
     <h1>Evaluation Results</h1>
 
     <h2>LibriTTS-Test-short <em>740 subset</em> (3-8s)</h2>
+    <p> 1000 diffusion steps</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>WER Mean (%)</th>
+                <th>WER Std Dev (%)</th>
+                <th>Spk Similarity (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>GT</td>
+                <td>2.9339</td>
+                <td>5.7248</td>
+                <td>100.0000</td>
+            </tr>
+            <tr>
+                <td>Generated</td>
+                <td>5.0824</td>
+                <td>13.0161</td>
+                <td>88.2173</td>
+            </tr>
+            <tr>
+                <td>Source</td>
+                <td>5.7028</td>
+                <td>10.7668</td>
+                <td>29.3199</td>
+            </tr>
+            <tr>
+                <td>Wesper</td>
+                <td>7.8416</td>
+                <td>11.2225</td>
+                <td>19.6041</td>
+            </tr>
+            <tr>
+                <td>N2N</td>
+                <td>3.1632</td>
+                <td>5.9835</td>
+                <td>89.5664</td>
+            </tr>
+        </tbody>
+    </table>
+    <p> * N2N: Voice conversion from normal speech to normal speech (speaker domain conversion) <br>
+        * WER calculated based on Whisper <br>
+        * Speaker Similarity calculated based on RawNet
+    </p>
+
+    <h3>Generated Samples:</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>GT</th>
+                <th>Generated</th>
+                <th>Source</th>
+                <th>Wesper</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>18</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/18.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/18.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/18.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/18.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>129</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/129.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/129.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/129.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/129.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>222</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/222.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/222.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/222.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/222.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>306</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/306.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/306.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/306.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/306.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>383</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/383.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/383.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/383.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/383.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>436</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/436.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/436.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/436.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/436.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>481</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/481.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/481.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/481.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/481.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>564</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/564.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/564.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/564.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/564.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>631</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/631.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/631.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/631.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/631.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td>711</td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/gt/711.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/recon/711.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/source/711.wav" type="audio/wav"></audio></td>
+                <td><audio controls><source src="/whisper2speech/d_1000s/1000short/wesper/711.wav" type="audio/wav"></audio></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>LibriTTS-Test-short <em>740 subset</em> (3-8s)</h2>
     <table>
         <thead>
             <tr>
