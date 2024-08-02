@@ -26,6 +26,55 @@
 <body>
     <h1>Evaluation Results</h1>
 
+    <h2>LibriTTS-Test-long <em>690 subset</em> (>8s)</h2>
+    <p> 1000 diffusion steps</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>WER Mean (%)</th>
+                <th>WER Std Dev (%)</th>
+                <th>Spk Similarity (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>GT</td>
+                <td>2.7158</td>
+                <td>4.0253</td>
+                <td>100.0000</td>
+            </tr>
+            <tr>
+                <td>Generated</td>
+                <td>3.5286</td>
+                <td>4.7002</td>
+                <td>88.5457</td>
+            </tr>
+            <tr>
+                <td>Source</td>
+                <td>3.7180</td>
+                <td>4.8354</td>
+                <td>24.8037</td>
+            </tr>
+            <tr>
+                <td>Wesper</td>
+                <td>7.8416</td>
+                <td>11.2225</td>
+                <td>19.6041</td>
+            </tr>
+            <tr>
+                <td>N2N</td>
+                <td>2.9097</td>
+                <td>4.1119</td>
+                <td>90.2708</td>
+            </tr>
+        </tbody>
+    </table>
+    <p> * N2N: Voice conversion from normal speech to normal speech (speaker domain conversion) <br>
+        * WER calculated based on Whisper <br>
+        * Speaker Similarity calculated based on RawNet
+    </p>
+
     <h2>LibriTTS-Test-short <em>740 subset</em> (3-8s)</h2>
     <p> 1000 diffusion steps</p>
     <table>
@@ -171,7 +220,7 @@
         </tbody>
     </table>
 
-    <h2>LibriTTS-Test-short <em>740 subset</em> (3-8s)</h2>
+    <!-- <h2>LibriTTS-Test-short <em>740 subset</em> (3-8s)</h2>
     <table>
         <thead>
             <tr>
@@ -392,6 +441,6 @@
                 <td><audio controls><source src="/whisper2speech/long/wesper/572.wav" type="audio/wav"></audio></td>
             </tr>
         </tbody>
-    </table>
+    </table> -->
 </body>
 </html>
